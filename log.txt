@@ -1,0 +1,21 @@
+error logs
+
+$ touch index.html
+$ touch app.js
+$ git init
+$ git add *.html
+$ git add *.js
+$ add .
+$ git status
+$ git rm --cached index.html
+$ git commit
+:wq
+$ git add .
+$ git status
+$ git commit -m 'changed app.js'
+$ clear
+$ touch .gitignore
+$ touch log.txt
+$ git add .
+$ git branch login
+& git commit -m 'another changes'
