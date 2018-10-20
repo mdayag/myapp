@@ -18,4 +18,23 @@ $ touch .gitignore
 $ touch log.txt
 $ git add .
 $ git branch login
-& git commit -m 'another changes'
+$ git commit -m 'another changes'
+$ git checkout login
+$ clear
+$ touch login.html
+modify index.html
+$ git add .
+$ git commit -m 'login form'
+$ clear
+$ git checkout master
+$ git merge login
+:wq
+logon to github.com
+$ git remote add origin https://github.com/mdayag/myapp.git
+$ git push -u origin master
+$ touch README.md
+$ git add .
+$ git commit -m 'Added readme'
+$ git push
+$ git clone https://github.com/mdayag/myapp.git
+$ git pull
